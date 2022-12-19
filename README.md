@@ -59,7 +59,8 @@
 ### Remote repositories
 
 - output remote repository `git remote` (`-v` for fetch & push url)
-- add github repository url as origin `git remote add origin git@github.com:pritishkarmakar17/<folder_name>`
+- add github repository url as origin `git remote add origin git@github.com:pritishkarmakar17/<folder_name>.git`
+- remove origin from git repository `git remote rm origin`
 - push pwd to github repository `git push -u origin branch_name` (`:new_branch_name` for pushing naming new_branch_name)
 >If it shows `error` or `fatal` then follow following steps:
 >- generate a ssh key `ssh-keygen -t ed25519 -C "your_email@example.com"`
